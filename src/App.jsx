@@ -1,5 +1,5 @@
-import Header from "./Header"; //Include Header
-import Footer from "./Footer"; //Include Footer
+import Header from "./page/header"; //Include Header
+import Footer from "./page/footer"; //Include Footer
 import Home from "./Home";
 import Shop from "./Shop";
 import SingleProduct from "./SingleProduct";
