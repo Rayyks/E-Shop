@@ -16,13 +16,13 @@ function App() {
         <Header></Header>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/page/shop" element={<Shop />} />
-          <Route path="/page/single-product" element={<SingleProduct />} />
+          <Route path="/page/Shop" element={<Shop />} />
+          <Route path="/page/singleProduct" element={<SingleProduct />} />
           <Route path="/page/checkout" element={<Checkout />} />
           <Route path="/page/cart" element={<Cart />} />
           <Route path="/page/login" element={<Login />} />
           <Route path="/page/signup" element={<Signup />} />
-          <Route path="/page/forgot-password" element={<ForgotPassword />} />
+          <Route path="/page/forgotPass" element={<ForgotPassword />} />
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

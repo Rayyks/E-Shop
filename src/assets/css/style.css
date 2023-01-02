@@ -1390,8 +1390,8 @@ a.text-primary:hover {
 
 .checkout-form .form-group input {
   border-radius: 0;
-  -moz-appearance: none;
-  -webkit-appearance: none;
+  appearance: none;
+  appearance: none;
   height: 45px;
 }
 
