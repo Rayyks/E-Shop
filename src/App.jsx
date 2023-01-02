@@ -1,14 +1,14 @@
 import Header from "./page/header"; //Include Header
 import Footer from "./page/footer"; //Include Footer
-import Home from "./Home";
-import Shop from "./Shop";
-import SingleProduct from "./SingleProduct";
-import Checkout from "./Checkout";
-import Cart from "./Cart";
-import Login from "./Login";
-import Signup from "./Signup";
-import ForgotPassword from "./ForgotPassword";
-import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
+import Home from "./page/Home";
+import Shop from "./page/Shop";
+import SingleProduct from "./page/singleProduct";
+import Checkout from "./page/checkout";
+import Cart from "./page/cart";
+import Login from "./page/login";
+import Signup from "./page/signup";
+import ForgotPassword from "./page/forgotPass";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
@@ -16,13 +16,13 @@ function App() {
         <Header></Header>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/single-product" element={<SingleProduct />} />
-          <Route path="/checkout" element={<Checkout />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/forgot-password" element={<ForgotPassword />} />
+          <Route path="/page/shop" element={<Shop />} />
+          <Route path="/page/single-product" element={<SingleProduct />} />
+          <Route path="/page/checkout" element={<Checkout />} />
+          <Route path="/page/cart" element={<Cart />} />
+          <Route path="/page/login" element={<Login />} />
+          <Route path="/page/signup" element={<Signup />} />
+          <Route path="/page/forgot-password" element={<ForgotPassword />} />
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

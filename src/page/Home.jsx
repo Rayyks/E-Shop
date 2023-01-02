@@ -5,7 +5,7 @@ function Home() {
         <div
           class="slider-item"
           style={{
-            backgroundImage: "url('assets/images/slideshow1-2.jpg')",
+            backgroundImage: "url('./assets/images/slideshow1-2.jpg')",
             backgroundPosition: "50%",
             backgroundRepeat: "no-repeat",
           }}
