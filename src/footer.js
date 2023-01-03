@@ -13,10 +13,10 @@ function Footer() {
 
                 <div className="">
                   <p className="mb-0">
-                    <strong>Location : </strong>North Punjab ,INDIA
+                    <strong>Location : </strong>Batam ,INDONESIA
                   </p>
                   <p>
-                    <strong>Support Email : </strong> support@email.com
+                    <strong>Support Email : </strong> support@gmail.com
                   </p>
                 </div>
               </div>
@@ -95,8 +95,8 @@ function Footer() {
           <div className="row ">
             <div className="col-lg-6">
               <p className="copyright mb-0 ">
-                @ Copyright Reserved to therichpost &amp; made by{" "}
-                <a href="https://therichpost.com/">therichpost</a>
+                @ Copyright Reserved to RayyDna &amp; made by{" "}
+                <a href="https://reer-rayyks.vercel.app/">RayyDna</a>
               </p>
             </div>
             <div className="col-lg-6">
